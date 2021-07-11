@@ -1,0 +1,93 @@
+* {
+  background-color: black;
+  background-size: auto;
+}
+
+.stairs-wrapper .stars {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.stars-animation {
+  -webkit-animation: stairs 4s linear infinite;
+  animation: stairs 4s linear infinite;
+}
+
+body, h4, p, #faculty-menu .faculty-item h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+@-webkit-keyframes stairs {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+}
+
+@keyframes stairs {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+}
+
+.stairs-wrapper .stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.stars-animation-two {
+  -webkit-animation: stairs 9s linear infinite;
+  animation: stairs 9s linear infinite;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.stairs-wrapper .stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.stars-animation-three {
+  -webkit-animation: stairs 9s linear infinite;
+  animation: stairs 9s linear infinite;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+}
+/*# sourceMappingURL=main.css.map */

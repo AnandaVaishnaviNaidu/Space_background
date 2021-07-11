@@ -1,0 +1,157 @@
+*{
+    background-color: black;
+    background-size: auto;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
+}
+
+.stairs-wrapper .stars {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.stars-animation {
+    -moz-animation: stairs 4s linear infinite;
+    -webkit-animation: stairs 4s linear infinite;
+    animation: stairs 4s linear infinite;
+}
+body, h4, p, #faculty-menu .faculty-item h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+@keyframes stairs {
+    
+
+0% {
+    opacity: 0;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+20% {
+    opacity: 1;
+}
+80% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+    -moz-transform: scale(3);
+    -ms-transform: scale(3);
+    -webkit-transform: scale(3);
+    transform: scale(3);
+}
+
+}
+
+//two
+
+.stairs-wrapper .stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.stars-animation-two {
+    -moz-animation: stairs 9s linear infinite;
+    -webkit-animation: stairs 9s linear infinite;
+    animation: stairs 9s linear infinite;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+
+
+// @keyframes stairs {
+// 0% {
+//     opacity: 0;
+//     -moz-transform: scale(0);
+//     -ms-transform: scale(0);
+//     -webkit-transform: scale(0);
+//     transform: scale(0);
+// }
+// 20% {
+//     opacity: 1;
+// }
+// 80% {
+//     opacity: 1;
+// }
+// 100% {
+//     opacity: 0;
+//     -moz-transform: scale(3);
+//     -ms-transform: scale(3);
+//     -webkit-transform: scale(3);
+//     transform: scale(3);
+// }
+// }
+
+//three 
+
+.stairs-wrapper .stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.stars-animation-three {
+    -moz-animation: stairs 9s linear infinite;
+    -webkit-animation: stairs 9s linear infinite;
+    animation: stairs 9s linear infinite;
+    -moz-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+// @keyframes stairs {
+// 0% {
+//     opacity: 0;
+//     -moz-transform: scale(0);
+//     -ms-transform: scale(0);
+//     -webkit-transform: scale(0);
+//     transform: scale(0);
+// }
+// 20% {
+//     opacity: 1;
+// }
+// 80% {
+//     opacity: 1;
+// }
+// 100% {
+//     opacity: 0;
+//     -moz-transform: scale(3);
+//     -ms-transform: scale(3);
+//     -webkit-transform: scale(3);
+//     transform: scale(3);
+// }
+// }
+
+
+// .stairs-wrapper {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     overflow: hidden;
+//     -webkit-backface-visibility: hidden;
+//     -webkit-perspective: 1000;
+// }
+
+// .stairs-wrapper .stars {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     top: 0;
+//     left: 0;
+//     opacity: 0;
+// }
+
